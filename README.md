@@ -68,13 +68,13 @@ python airnow_downloader.py --list-stations
 Download **one station and one winter** (recommended first test):
 
 ```bash
-python airnow_downloader.py --station 6 --start-year 2023 --end-year 2023 --confirm
+python airnow_downloader.py --station 6 --start-year 2023 --end-year 2023
 ```
 
 Download several stations:
 
 ```bash
-python airnow_downloader.py --station 6 --station 23 --start-year 2022 --end-year 2023 --confirm
+python airnow_downloader.py --station 6 --station 23 --start-year 2022 --end-year 2023
 ```
 
 Without `--station`, all listed stations are selected. Avoid a bulk run until you have checked a successful one-station download. Use `--output PATH` to change the destination. `--pause 8` is the default delay between requests.
